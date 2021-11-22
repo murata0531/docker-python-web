@@ -7,4 +7,4 @@ WORKDIR /app
 COPY ./requirements.txt /app
 RUN pip install -r requirements.txt
 
-CMD ["hug", "-f", "api_sklearn2.py"]
+CMD ["hug", "-f", "api_temp.py"]
