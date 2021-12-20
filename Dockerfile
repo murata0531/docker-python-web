@@ -17,4 +17,4 @@ WORKDIR /app
 COPY ./requirements.txt /app
 RUN pip install -r requirements.txt
 
-CMD ["hug", "-f", "api_keras2.py"]
+CMD ["hug", "-f", "api_rnn.py"]
